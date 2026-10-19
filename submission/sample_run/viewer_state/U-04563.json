@@ -110,7 +110,7 @@
     "goal_name": "try_new_release_7d",
     "rule_version": "G08-2026-09-30",
     "decision_id": "D-1648",
-    "created_at": "2026-10-01T13:07:20.392Z",
+    "created_at": "2026-10-01T13:07:20.394Z",
     "deadline": "2026-10-08T13:07:20.391Z",
     "success_event": "play_started",
     "success_condition": "a title released in the 30 days before the goal start",
@@ -129,7 +129,7 @@
     "target_slug": null,
     "status": "SUCCEEDED"
   },
-  "last_home_page_at": "2026-10-01T13:07:20.392Z",
+  "last_home_page_at": "2026-10-01T13:07:20.394Z",
   "last_home_page_dialect": "d5",
   "messages_sent_ist_days": [],
   "decision_history": [

@@ -101,7 +101,7 @@
     "goal_name": "first_full_episode_3d",
     "rule_version": "G02-2026-09-30",
     "decision_id": "D-1048",
-    "created_at": "2026-10-01T08:24:02.723Z",
+    "created_at": "2026-10-01T08:24:02.706Z",
     "deadline": "2026-10-04T08:24:02.705Z",
     "success_event": "episode_completed",
     "success_condition": "any episode",
@@ -120,7 +120,7 @@
     "target_slug": null,
     "status": "FAILED"
   },
-  "last_home_page_at": "2026-10-01T08:24:02.723Z",
+  "last_home_page_at": "2026-10-01T08:24:02.706Z",
   "last_home_page_dialect": "d1",
   "messages_sent_ist_days": [],
   "decision_history": [

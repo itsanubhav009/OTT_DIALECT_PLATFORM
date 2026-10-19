@@ -3,7 +3,7 @@
   "p50_ms": 1,
   "p95_ms": 1,
   "p99_ms": 1,
-  "max_ms": 18,
+  "max_ms": 5,
   "sla_60000ms_pass_rate": 1.0,
   "peak_burst_load_shed_triggers": 544,
   "simulator_policy_problem_count": 0,
@@ -33,6 +33,7 @@
     }
   ],
   "prompt_injection_titles_redacted": [
-    "T0002"
+    "T0002",
+    "T0522"
   ]
 }

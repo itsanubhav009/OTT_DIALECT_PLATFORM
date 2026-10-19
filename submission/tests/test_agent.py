@@ -125,5 +125,39 @@ class TestStageAgent(unittest.TestCase):
         self.assertEqual(out1["outcome"], "FAILED")
 
 
+
+    def test_5_holdout_zero_action_and_row_under_3_dropped(self):
+        small_cat = [self.catalogue[0], self.catalogue[2]]  # Only 2 distinct slugs in d3
+        sys = LifecycleAgentSystem(small_cat, self.episodes, self.goals_cfg, {"U-H": "holdout", "U-LOW": "agent"})
+        dec_h, act_h = sys.handle_trigger({"event_id": "E-H", "user_id": "U-H", "event": "app_open", "received_at": "2026-10-01T10:00:00.000Z", "deliver_at": "2026-10-01T10:00:00.000Z", "app_dialect": "d3"})
+        self.assertEqual(dec_h.status, "HOLDOUT_NO_ACTION")
+        self.assertIsNone(act_h)
+
+        st_l = sys.get_or_create_viewer("U-LOW")
+        StateResolver.ingest_profile_rows(st_l, [{"user_id": "U-LOW", "preferred_dialect": "d3", "subscription_status": "never", "updated_at": "2026-09-29T00:00:00.000Z"}], "2026-10-01T00:00:00.000Z")
+        dec_l, act_l = sys.handle_trigger({"event_id": "E-L", "user_id": "U-LOW", "event": "app_open", "received_at": "2026-10-01T10:00:00.000Z", "deliver_at": "2026-10-01T10:00:00.000Z", "app_dialect": "d3"})
+        self.assertEqual(dec_l.action, "NO_ACTION")
+        self.assertIsNone(act_l)
+
+    def test_6_quiet_hours_frequency_cap_and_withdrawn_title(self):
+        sys = LifecycleAgentSystem(self.catalogue, self.episodes, self.goals_cfg, {"U-Q": "agent"})
+        st = sys.get_or_create_viewer("U-Q")
+        StateResolver.ingest_profile_rows(st, [{"user_id": "U-Q", "preferred_dialect": "d3", "subscription_status": "never", "notifications_opt_in": "true", "updated_at": "2026-09-29T00:00:00.000Z"}], "2026-10-01T00:00:00.000Z")
+        st.messages_sent_ist_days.append("2026-10-01")
+        sys.apply_control_event({"at": "2026-10-01T07:00:00.000Z", "type": "title_withdrawn", "title_id": "T1"})
+
+        _, failed = IndependentVerifier.verify_action(
+            state=st, goal_def=sys.goals_by_id["G02"], action_type="PUSH",
+            action_payload={"type": "push", "send_at": "2026-10-01T18:00:00.000Z", "title_id": "T1", "text": {"title": "Watch", "body": "free forever"}},
+            resolved_dialect="d3", sub_status="never", signup_days=5.0, unfinished_slugs=[], days_since_last_open=1.0,
+            recent_14d_play_days=0, evidence_refs=["event:E1"], catalogue_by_id=sys.catalogue_by_id,
+            published_at_iso="2026-10-01T18:00:00.000Z", trigger_age_s=1
+        )
+        self.assertIn("message_title_unavailable_or_withdrawn", failed)
+        self.assertIn("quiet_hours_ist_violation", failed)
+        self.assertIn("frequency_cap_exceeded", failed)
+        self.assertIn("forbidden_phrase:free forever", failed)
+
+
 if __name__ == "__main__":
     unittest.main()

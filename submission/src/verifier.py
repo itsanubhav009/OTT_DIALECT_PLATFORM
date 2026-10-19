@@ -58,7 +58,7 @@ class IndependentVerifier:
         r"send (a )?(push|whatsapp)",
         r"system (instruction|override|prompt)",
         r"assistant:",
-        r"do not follow",
+        r"do not follow", r"every viewer", r"every user", r"all viewers", r"all users", r"agent", r"prompt", r"instruction", r"push notification", r"whatsapp",
         r"when (an|the) (ai|agent|assistant|model)",
         r"instruct(ion|s)? for (the )?(ai|agent|model)",
         r"always (recommend|promote|select|choose|include)",
