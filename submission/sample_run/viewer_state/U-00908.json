@@ -1,0 +1,150 @@
+{
+  "user_id": "U-00908",
+  "viewer_id": "U-00908",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:51:03.243Z",
+        "device_time": null,
+        "freshness_s": 61736,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00908"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T16:08:14.365Z",
+        "device_time": "2026-10-01T16:08:13.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:5d8422af-279d-439f-b666-59b844978d81"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:51:03.243Z",
+        "device_time": null,
+        "freshness_s": 61736,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00908"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-15T18:07:32.012Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:51:03.243Z",
+        "device_time": null,
+        "freshness_s": 61736,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00908"
+      },
+      {
+        "value": "2026-09-15T18:07:34.153Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-15T18:07:34.153Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:b0a610c9-eeac-490a-978c-8ec180b48a4d"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:51:03.243Z",
+        "device_time": null,
+        "freshness_s": 61736,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00908"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:51:03.243Z",
+        "device_time": null,
+        "freshness_s": 61736,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00908"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T14:16:03.254Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:c2349a40-19dd-4755-8dc6-c649f5c9a0f6"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T16:06:29.996Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:4619c23a-9f39-4300-8e74-c93be1e3698c"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T16:08:14.365Z",
+  "genre_counts": {
+    "Devotional": 1,
+    "Action": 1,
+    "Drama": 1,
+    "Thriller": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-2394",
+    "created_at": "2026-10-01T16:08:14.366Z",
+    "deadline": "2026-10-04T16:08:14.365Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0007",
+      "title:T0070",
+      "title:T0417",
+      "title:T0465",
+      "title:T0075",
+      "title:T0127",
+      "title:T0384",
+      "title:T0147",
+      "title:T0405"
+    ],
+    "target_slug": "tiya-bhamaro-d1",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T16:08:14.366Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0357",
+    "D-1261",
+    "D-1611",
+    "D-2394"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T16:08:14.365Z without play_started."
+  ],
+  "seen_triggers_count": 4,
+  "seen_events_count": 23
+}

@@ -1,0 +1,153 @@
+{
+  "user_id": "U-04118",
+  "viewer_id": "U-04118",
+  "arm": "holdout",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d2",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T03:54:54.100Z",
+        "device_time": null,
+        "freshness_s": 72305,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04118"
+      },
+      {
+        "value": "d2",
+        "source": "campaign_link",
+        "observed_at": "2026-09-18T22:53:08.404Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:ca752966-a304-4544-9059-2b523f3baa69"
+      },
+      {
+        "value": "d2",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T06:57:21.203Z",
+        "device_time": "2026-10-01T06:57:21.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3e1b1a6d-ff61-4322-8d63-84418c7bfb59"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T03:54:54.100Z",
+        "device_time": null,
+        "freshness_s": 72305,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04118"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-14T22:36:49.855Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:a5285165-d7c2-455a-bbb3-e8289f4902a5"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-11T22:36:47.172Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T03:54:54.100Z",
+        "device_time": null,
+        "freshness_s": 72305,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04118"
+      },
+      {
+        "value": "2026-09-11T22:36:49.267Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-11T22:36:49.267Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:b8abb08e-ebba-4dbb-abf1-0f15184c7d3e"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T03:54:54.100Z",
+        "device_time": null,
+        "freshness_s": 72305,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04118"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T03:54:54.100Z",
+        "device_time": null,
+        "freshness_s": 72305,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04118"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0522",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T13:34:35.342Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:654aa439-8e42-40c4-ab9a-4f3a44b61877"
+      }
+    ],
+    "purchase_completed": [
+      {
+        "value": {
+          "is_trial": false,
+          "plan_id": "P_MONTH"
+        },
+        "source": "event_stream",
+        "observed_at": "2026-09-14T22:36:49.855Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:a5285165-d7c2-455a-bbb3-e8289f4902a5"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0522",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T13:37:19.931Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:751645d8-2f3f-49af-8825-2acb23dde9dd"
+      }
+    ]
+  },
+  "play_count": 6,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T06:57:21.203Z",
+  "genre_counts": {
+    "Action": 2,
+    "Romance": 3,
+    "Crime": 3,
+    "Thriller": 3,
+    "Devotional": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [],
+  "learnings": [],
+  "seen_triggers_count": 1,
+  "seen_events_count": 39
+}

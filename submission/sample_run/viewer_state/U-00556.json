@@ -1,0 +1,131 @@
+{
+  "user_id": "U-00556",
+  "viewer_id": "U-00556",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d6",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:40:00.107Z",
+        "device_time": null,
+        "freshness_s": 62399,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00556"
+      },
+      {
+        "value": "d2",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T10:46:28.301Z",
+        "device_time": "2026-10-01T10:46:26.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:027ecff8-2009-4657-bc71-1b580531265e"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:40:00.107Z",
+        "device_time": null,
+        "freshness_s": 62399,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00556"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-02-26T13:00:00.954Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:40:00.107Z",
+        "device_time": null,
+        "freshness_s": 62399,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00556"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:40:00.107Z",
+        "device_time": null,
+        "freshness_s": 62399,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00556"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:40:00.107Z",
+        "device_time": null,
+        "freshness_s": 62399,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00556"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0526",
+        "source": "event_stream",
+        "observed_at": "2026-09-24T09:09:20.253Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:a9052f65-7c7d-4ff7-a6c9-362a5feb113e"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0526",
+        "source": "event_stream",
+        "observed_at": "2026-09-02T06:56:17.442Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:8ce135b4-cb7c-4fe6-866a-e50f9d3cf90b"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T10:46:28.301Z",
+  "genre_counts": {
+    "Action": 2,
+    "Comedy": 2
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1344",
+    "created_at": "2026-10-01T10:46:28.302Z",
+    "deadline": "2026-10-04T10:46:28.301Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "WHATSAPP",
+    "target_content": [
+      "title:T0525"
+    ],
+    "target_slug": "rigu-dhadi-d2",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T10:46:22.692Z",
+  "last_home_page_dialect": "d2",
+  "messages_sent_ist_days": [
+    "2026-10-01"
+  ],
+  "decision_history": [
+    "D-1343",
+    "D-1344"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T10:46:28.301Z without play_started."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 25
+}

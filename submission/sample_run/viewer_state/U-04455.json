@@ -1,0 +1,137 @@
+{
+  "user_id": "U-04455",
+  "viewer_id": "U-04455",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T20:44:56.293Z",
+        "device_time": null,
+        "freshness_s": 98103,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04455"
+      },
+      {
+        "value": "d6",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T15:09:48.079Z",
+        "device_time": "2026-10-01T15:09:46.052Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:562ffeb0-ff1f-470b-b46c-c5b1d2c2c93c"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T20:44:56.293Z",
+        "device_time": null,
+        "freshness_s": 98103,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04455"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-02-26T16:35:55.921Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T20:44:56.293Z",
+        "device_time": null,
+        "freshness_s": 98103,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04455"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T20:44:56.293Z",
+        "device_time": null,
+        "freshness_s": 98103,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04455"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T20:44:56.293Z",
+        "device_time": null,
+        "freshness_s": 98103,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04455"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1906",
+        "source": "event_stream",
+        "observed_at": "2026-09-19T16:24:10.263Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:9686e219-a9c5-481f-9727-4e716b037110"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1906",
+        "source": "event_stream",
+        "observed_at": "2026-09-16T03:56:00.198Z",
+        "device_time": null,
+        "freshness_s": 493929,
+        "clock_skew_s": 0,
+        "ref_id": "event:745d32f0-cebc-44a5-8731-4eecbf3ea8ec"
+      }
+    ]
+  },
+  "play_count": 3,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T15:09:48.079Z",
+  "genre_counts": {
+    "Comedy": 1,
+    "Action": 2,
+    "Crime": 2
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-2180",
+    "created_at": "2026-10-01T15:09:48.080Z",
+    "deadline": "2026-10-04T15:09:48.079Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T1461",
+      "title:T1491",
+      "title:T1396",
+      "title:T1399",
+      "title:T1445",
+      "title:T1439",
+      "title:T1404",
+      "title:T1496",
+      "title:T1453"
+    ],
+    "target_slug": "diti-kochu-d5",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T15:09:48.080Z",
+  "last_home_page_dialect": "d6",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-2180"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T15:09:48.079Z without play_started."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 34
+}

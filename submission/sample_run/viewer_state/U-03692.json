@@ -1,0 +1,114 @@
+{
+  "user_id": "U-03692",
+  "viewer_id": "U-03692",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T14:56:17.080Z",
+        "device_time": "2026-10-01T14:56:16.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:b4d2d7a1-af67-483c-ad45-2e9bf84d63db"
+      },
+      {
+        "value": "d3",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T14:56:17.080Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:b4d2d7a1-af67-483c-ad45-2e9bf84d63db"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-30T01:12:53.337Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T01:12:53.337Z",
+        "device_time": null,
+        "freshness_s": 116,
+        "clock_skew_s": 0,
+        "ref_id": "event:a9870d3d-42bd-4a70-8b58-320a7ec5dad9"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T01:12:53.337Z",
+        "device_time": null,
+        "freshness_s": 116,
+        "clock_skew_s": 0,
+        "ref_id": "event:a9870d3d-42bd-4a70-8b58-320a7ec5dad9"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T01:14:24.809Z",
+        "device_time": null,
+        "freshness_s": 116,
+        "clock_skew_s": 0,
+        "ref_id": "event:cd553491-88ff-4032-bf08-c019680ac03d"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T03:04:47.508Z",
+        "device_time": null,
+        "freshness_s": 116,
+        "clock_skew_s": 0,
+        "ref_id": "event:032ad395-4b8b-42ea-9de3-8a78b194b2ef"
+      }
+    ]
+  },
+  "play_count": 1,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T14:56:17.080Z",
+  "genre_counts": {
+    "Drama": 1,
+    "Thriller": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G03",
+    "goal_name": "second_day_return_2d",
+    "rule_version": "G03-corrected@2026-10-01T08:30",
+    "decision_id": "D-2001",
+    "created_at": "2026-10-01T14:56:17.081Z",
+    "deadline": "2026-10-03T14:56:17.080Z",
+    "success_event": "play_started",
+    "success_condition": "on a later IST calendar day within the window",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0060",
+      "title:T0274",
+      "title:T0303",
+      "title:T0263",
+      "title:T0258",
+      "title:T0270",
+      "title:T0198",
+      "title:T0449",
+      "title:T0460"
+    ],
+    "target_slug": null,
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T14:56:17.081Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-2001"
+  ],
+  "learnings": [
+    "Goal G03 (G03-corrected@2026-10-01T08:30) FAILED: window closed at 2026-10-03T14:56:17.080Z without play_started."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 15
+}

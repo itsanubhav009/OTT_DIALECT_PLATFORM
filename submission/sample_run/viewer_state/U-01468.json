@@ -1,0 +1,148 @@
+{
+  "user_id": "U-01468",
+  "viewer_id": "U-01468",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:42:10.623Z",
+        "device_time": null,
+        "freshness_s": 69469,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01468"
+      },
+      {
+        "value": "d5",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T05:07:44.260Z",
+        "device_time": "2026-10-01T05:07:43.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:8e9b73b6-0d5b-408e-9aed-ed6470106e52"
+      },
+      {
+        "value": "d5",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T05:07:44.260Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:8e9b73b6-0d5b-408e-9aed-ed6470106e52"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:42:10.623Z",
+        "device_time": null,
+        "freshness_s": 69469,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01468"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-01-26T00:13:29.020Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:42:10.623Z",
+        "device_time": null,
+        "freshness_s": 69469,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01468"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:42:10.623Z",
+        "device_time": null,
+        "freshness_s": 69469,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01468"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:42:10.623Z",
+        "device_time": null,
+        "freshness_s": 69469,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01468"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1179",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T11:53:41.568Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:535041f2-459d-4bd8-a900-2a9d90184f68"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1179",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T11:56:29.567Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:a4d776d1-e7c4-4308-bf3a-4bd49856ff82"
+      }
+    ]
+  },
+  "play_count": 3,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T05:07:44.260Z",
+  "genre_counts": {
+    "Devotional": 1,
+    "Family": 1,
+    "Crime": 2,
+    "Romance": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-0628",
+    "created_at": "2026-10-01T05:07:44.261Z",
+    "deadline": "2026-10-04T05:07:44.260Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T1186",
+      "title:T1179",
+      "title:T1177",
+      "title:T1326",
+      "title:T1283",
+      "title:T1246",
+      "title:T1239",
+      "title:T1218",
+      "title:T1207"
+    ],
+    "target_slug": "gubava-gihaya-d5",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T05:07:44.261Z",
+  "last_home_page_dialect": "d5",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0628"
+  ],
+  "learnings": [
+    "Resolved 2 duplicate profile rows (dialects=['d5', 'd4'], subs=['never', 'lapsed']) by latest updated_at=2026-09-29T04:42:10.623Z.",
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T05:07:44.260Z without play_started."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 37
+}

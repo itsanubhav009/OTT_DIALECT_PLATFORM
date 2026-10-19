@@ -1,0 +1,160 @@
+{
+  "user_id": "U-01200",
+  "viewer_id": "U-01200",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d6",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:53:59.988Z",
+        "device_time": null,
+        "freshness_s": 50760,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01200"
+      },
+      {
+        "value": "d6",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T05:13:08.794Z",
+        "device_time": "2026-10-01T05:13:08.794Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3eaa17f3-cf5d-4219-b6ef-cf5ef0f11b42"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:53:59.988Z",
+        "device_time": null,
+        "freshness_s": 50760,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01200"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T05:13:08.794Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3eaa17f3-cf5d-4219-b6ef-cf5ef0f11b42"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-03-16T07:42:07.434Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:53:59.988Z",
+        "device_time": null,
+        "freshness_s": 50760,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01200"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:53:59.988Z",
+        "device_time": null,
+        "freshness_s": 50760,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01200"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:53:59.988Z",
+        "device_time": null,
+        "freshness_s": 50760,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01200"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1388",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T14:43:11.077Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3b7989a6-82f8-4d78-89c8-e6b3dd541b7f"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1388",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T16:58:25.977Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:092f3d24-d3fc-45ff-a17d-35ec7a351beb"
+      }
+    ],
+    "purchase_completed": [
+      {
+        "value": {
+          "is_trial": false,
+          "plan_id": "P_MONTH"
+        },
+        "source": "event_stream",
+        "observed_at": "2026-10-01T05:13:08.794Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3eaa17f3-cf5d-4219-b6ef-cf5ef0f11b42"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T05:10:59.583Z",
+  "genre_counts": {
+    "Devotional": 1,
+    "Thriller": 2,
+    "Comedy": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-0637",
+    "created_at": "2026-10-01T05:10:59.584Z",
+    "deadline": "2026-10-04T05:10:59.583Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T1387",
+      "title:T1388",
+      "title:T1472",
+      "title:T1400",
+      "title:T1459",
+      "title:T1479",
+      "title:T1426",
+      "title:T1417",
+      "title:T1496"
+    ],
+    "target_slug": "rasuya-moni-d6",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T05:10:59.584Z",
+  "last_home_page_dialect": "d6",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0637"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T05:10:59.583Z without play_started."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 20
+}

@@ -1,0 +1,150 @@
+{
+  "user_id": "U-01777",
+  "viewer_id": "U-01777",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T11:14:55.460Z",
+        "device_time": null,
+        "freshness_s": 45904,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01777"
+      },
+      {
+        "value": "d4",
+        "source": "campaign_link",
+        "observed_at": "2026-09-14T01:57:34.959Z",
+        "device_time": null,
+        "freshness_s": 661740,
+        "clock_skew_s": 0,
+        "ref_id": "event:74b4c7ad-d6b1-4c4f-ae06-7e54eed9740d"
+      },
+      {
+        "value": "d5",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T16:14:33.697Z",
+        "device_time": "2026-10-01T16:14:31.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:3e7616a1-5ec7-4e9f-9450-407599f79ecb"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T11:14:55.460Z",
+        "device_time": null,
+        "freshness_s": 45904,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01777"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-04-03T19:52:03.414Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T11:14:55.460Z",
+        "device_time": null,
+        "freshness_s": 45904,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01777"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T11:14:55.460Z",
+        "device_time": null,
+        "freshness_s": 45904,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01777"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T11:14:55.460Z",
+        "device_time": null,
+        "freshness_s": 45904,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01777"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1186",
+        "source": "event_stream",
+        "observed_at": "2026-09-16T14:02:12.996Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3d65226d-23c6-4707-8330-952bed43ee39"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1186",
+        "source": "event_stream",
+        "observed_at": "2026-09-16T14:25:12.247Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:562bd16c-d456-4b62-8be2-fe9f91b61d98"
+      }
+    ]
+  },
+  "play_count": 4,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T16:14:33.697Z",
+  "genre_counts": {
+    "Family": 2,
+    "Devotional": 1,
+    "Action": 2,
+    "Drama": 2,
+    "Crime": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-2420",
+    "created_at": "2026-10-01T16:14:27.755Z",
+    "deadline": "2026-10-04T16:14:27.754Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T1186",
+      "title:T1180",
+      "title:T1261",
+      "title:T1181",
+      "title:T1285",
+      "title:T1248",
+      "title:T1259",
+      "title:T1244",
+      "title:T1369"
+    ],
+    "target_slug": "kova-sako-d5",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T16:14:27.755Z",
+  "last_home_page_dialect": "d5",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0408",
+    "D-2420",
+    "D-2421"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T16:14:27.754Z without play_started."
+  ],
+  "seen_triggers_count": 3,
+  "seen_events_count": 39
+}

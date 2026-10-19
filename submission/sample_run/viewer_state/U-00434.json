@@ -1,0 +1,171 @@
+{
+  "user_id": "U-00434",
+  "viewer_id": "U-00434",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d3",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T07:40:47.058Z",
+        "device_time": null,
+        "freshness_s": 58752,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00434"
+      },
+      {
+        "value": "d3",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T14:40:20.711Z",
+        "device_time": "2026-10-01T14:40:18.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:b7621522-574d-463b-8f4d-17370374796c"
+      },
+      {
+        "value": "d6",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T14:40:20.711Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:b7621522-574d-463b-8f4d-17370374796c"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T07:40:47.058Z",
+        "device_time": null,
+        "freshness_s": 58752,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00434"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-03T15:19:48.445Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:aaeb01cf-bb7f-492f-b55b-419d7c5567e4"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-02-18T13:30:53.866Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T07:40:47.058Z",
+        "device_time": null,
+        "freshness_s": 58752,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00434"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T07:40:47.058Z",
+        "device_time": null,
+        "freshness_s": 58752,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00434"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T07:40:47.058Z",
+        "device_time": null,
+        "freshness_s": 58752,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00434"
+      }
+    ],
+    "purchase_completed": [
+      {
+        "value": {
+          "is_trial": false,
+          "plan_id": "P_MONTH"
+        },
+        "source": "event_stream",
+        "observed_at": "2026-09-03T15:19:48.445Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:aaeb01cf-bb7f-492f-b55b-419d7c5567e4"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0909",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T14:41:34.346Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:5cae2a57-636b-4d93-ad01-dc5e78ea4246"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0909",
+        "source": "event_stream",
+        "observed_at": "2026-09-23T15:44:05.609Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3882c9c1-5589-4e0b-8ee0-f9588c9a7945"
+      }
+    ]
+  },
+  "play_count": 9,
+  "complete_count": 3,
+  "last_open_at": "2026-10-01T14:40:20.711Z",
+  "genre_counts": {
+    "Romance": 6,
+    "Action": 1,
+    "Comedy": 5,
+    "Drama": 1,
+    "Family": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G08",
+    "goal_name": "try_new_release_7d",
+    "rule_version": "G08-2026-09-30",
+    "decision_id": "D-1951",
+    "created_at": "2026-10-01T14:40:20.712Z",
+    "deadline": "2026-10-08T14:40:20.711Z",
+    "success_event": "play_started",
+    "success_condition": "a title released in the 30 days before the goal start",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0909",
+      "title:T0901",
+      "title:T0902",
+      "title:T0906",
+      "title:T0910",
+      "title:T0905",
+      "title:T0904",
+      "title:T0911",
+      "title:T0908"
+    ],
+    "target_slug": null,
+    "status": "SUCCEEDED"
+  },
+  "last_home_page_at": "2026-10-01T14:40:20.712Z",
+  "last_home_page_dialect": "d3",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1951"
+  ],
+  "learnings": [
+    "Goal G08 (G08-2026-09-30) SUCCEEDED via event:oua-003002."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 62
+}

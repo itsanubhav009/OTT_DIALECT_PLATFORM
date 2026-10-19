@@ -1,0 +1,93 @@
+{
+  "user_id": "U-02451",
+  "viewer_id": "U-02451",
+  "arm": "holdout",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T10:53:55.423Z",
+        "device_time": null,
+        "freshness_s": 47164,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02451"
+      },
+      {
+        "value": "d4",
+        "source": "campaign_link",
+        "observed_at": "2026-09-13T01:30:01.293Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:34828189-33d7-4355-b2a2-aecf8dc0a2b2"
+      },
+      {
+        "value": "d4",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T06:15:32.139Z",
+        "device_time": "2026-10-01T06:15:31.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:8098b7eb-faf7-4f15-842b-d82025befcc5"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T10:53:55.423Z",
+        "device_time": null,
+        "freshness_s": 47164,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02451"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-01-01T01:03:08.798Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T10:53:55.423Z",
+        "device_time": null,
+        "freshness_s": 47164,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02451"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T10:53:55.423Z",
+        "device_time": null,
+        "freshness_s": 47164,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02451"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T10:53:55.423Z",
+        "device_time": null,
+        "freshness_s": 47164,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02451"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T06:15:32.139Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [],
+  "learnings": [],
+  "seen_triggers_count": 2,
+  "seen_events_count": 4
+}

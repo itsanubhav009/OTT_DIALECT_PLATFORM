@@ -1,0 +1,170 @@
+{
+  "user_id": "U-00649",
+  "viewer_id": "U-00649",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d4",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T02:21:02.066Z",
+        "device_time": null,
+        "freshness_s": 77937,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00649"
+      },
+      {
+        "value": "d1",
+        "source": "campaign_link",
+        "observed_at": "2026-09-26T01:57:41.229Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:42dc1eb6-9687-48b3-a705-0c6e81313449"
+      },
+      {
+        "value": "d4",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T07:37:32.152Z",
+        "device_time": "2026-10-01T07:37:32.152Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:9b6c3196-4d3b-45cf-8378-78dd0899a0f1"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T02:21:02.066Z",
+        "device_time": null,
+        "freshness_s": 77937,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00649"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T07:37:32.152Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:9b6c3196-4d3b-45cf-8378-78dd0899a0f1"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-12-13T10:09:45.034Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T02:21:02.066Z",
+        "device_time": null,
+        "freshness_s": 77937,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00649"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T02:21:02.066Z",
+        "device_time": null,
+        "freshness_s": 77937,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00649"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T02:21:02.066Z",
+        "device_time": null,
+        "freshness_s": 77937,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00649"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0921",
+        "source": "event_stream",
+        "observed_at": "2026-09-26T11:30:52.874Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:5869daee-b18a-4990-a851-2c0c16111e44"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0921",
+        "source": "event_stream",
+        "observed_at": "2026-09-24T16:52:06.437Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:8f21bfec-18fe-4d65-b9ea-de3074cea944"
+      }
+    ],
+    "purchase_completed": [
+      {
+        "value": {
+          "is_trial": false,
+          "plan_id": "P_MONTH"
+        },
+        "source": "event_stream",
+        "observed_at": "2026-10-01T07:37:32.152Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:9b6c3196-4d3b-45cf-8378-78dd0899a0f1"
+      }
+    ]
+  },
+  "play_count": 4,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T07:35:14.802Z",
+  "genre_counts": {
+    "Crime": 3,
+    "Action": 3,
+    "Drama": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G05",
+    "goal_name": "first_paid_7d",
+    "rule_version": "G05-2026-09-30",
+    "decision_id": "D-0936",
+    "created_at": "2026-10-01T07:35:14.803Z",
+    "deadline": "2026-10-08T07:35:14.802Z",
+    "success_event": "purchase_completed",
+    "success_condition": "is_trial = false",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0921",
+      "title:T0917",
+      "title:T1116",
+      "title:T1101",
+      "title:T1031",
+      "title:T0974",
+      "title:T1151",
+      "title:T1021",
+      "title:T1170"
+    ],
+    "target_slug": null,
+    "status": "SUCCEEDED"
+  },
+  "last_home_page_at": "2026-10-01T07:35:14.803Z",
+  "last_home_page_dialect": "d4",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0936"
+  ],
+  "learnings": [
+    "Goal G05 succeeded immediately on live purchase 9b6c3196-4d3b-45cf-8378-78dd0899a0f1.",
+    "Goal G05 (G05-2026-09-30) SUCCEEDED via event:9b6c3196-4d3b-45cf-8378-78dd0899a0f1."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 43
+}

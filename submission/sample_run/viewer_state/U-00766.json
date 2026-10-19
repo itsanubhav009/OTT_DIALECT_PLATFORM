@@ -1,0 +1,77 @@
+{
+  "user_id": "U-00766",
+  "viewer_id": "U-00766",
+  "arm": "holdout",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "campaign_link",
+        "observed_at": "2026-09-25T13:53:04.188Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3b0fc9e7-75da-4a23-b55b-9ad8c1588714"
+      },
+      {
+        "value": "d3",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T14:53:24.397Z",
+        "device_time": "2026-10-01T14:51:32.851Z",
+        "freshness_s": 110,
+        "clock_skew_s": 1,
+        "ref_id": "event:c328a7a8-11cf-4956-9cef-f1986cd9414f"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0901",
+        "source": "event_stream",
+        "observed_at": "2026-09-27T23:20:41.276Z",
+        "device_time": null,
+        "freshness_s": 385070,
+        "clock_skew_s": 0,
+        "ref_id": "event:af553230-3c4a-4cc9-8d3b-2cb6f680f416"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0913",
+        "source": "event_stream",
+        "observed_at": "2026-09-25T17:52:28.444Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:650c525d-b83c-4331-87b1-316d51891ed1"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-08T13:25:17.601Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:e8da2c83-683a-4114-8942-59f1da3cdcb8"
+      }
+    ]
+  },
+  "play_count": 11,
+  "complete_count": 8,
+  "last_open_at": "2026-10-01T14:53:24.397Z",
+  "genre_counts": {
+    "Romance": 8,
+    "Family": 3,
+    "Action": 2
+  },
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [],
+  "learnings": [],
+  "seen_triggers_count": 2,
+  "seen_events_count": 87
+}

@@ -1,0 +1,149 @@
+{
+  "user_id": "U-03627",
+  "viewer_id": "U-03627",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:25:26.053Z",
+        "device_time": null,
+        "freshness_s": 70473,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03627"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T13:36:22.806Z",
+        "device_time": "2026-10-01T13:36:22.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:0de74bc6-4cde-4d5b-9275-0bda1b4bda12"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "lapsed",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:25:26.053Z",
+        "device_time": null,
+        "freshness_s": 70473,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03627"
+      },
+      {
+        "value": "lapsed",
+        "source": "event_stream",
+        "observed_at": "2026-09-20T07:20:44.711Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:cd6c26f8-96f0-4f18-9a9c-939f5711a211"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-17T07:20:43.984Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:25:26.053Z",
+        "device_time": null,
+        "freshness_s": 70473,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03627"
+      },
+      {
+        "value": "2026-09-17T07:20:45.189Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-17T07:20:45.189Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:ea241c48-54e2-436d-91dc-e4462af7e2da"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:25:26.053Z",
+        "device_time": null,
+        "freshness_s": 70473,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03627"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:25:26.053Z",
+        "device_time": null,
+        "freshness_s": 70473,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03627"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-18T10:21:42.375Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:b7574f65-dc15-40e1-ab2c-a9670da3f66f"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-18T12:12:06.450Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:bc2edc48-e0d4-4825-8eac-e8dfdc0061e3"
+      }
+    ]
+  },
+  "play_count": 3,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T13:36:22.806Z",
+  "genre_counts": {
+    "Drama": 3,
+    "Thriller": 2
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1724",
+    "created_at": "2026-10-01T13:36:22.807Z",
+    "deadline": "2026-10-04T13:36:22.806Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "WHATSAPP",
+    "target_content": [
+      "title:T0005"
+    ],
+    "target_slug": "hapibha-d1",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T13:36:21.168Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [
+    "2026-10-01"
+  ],
+  "decision_history": [
+    "D-1723",
+    "D-1724"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T13:36:22.806Z without play_started."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 38
+}

@@ -1,0 +1,150 @@
+{
+  "user_id": "U-01171",
+  "viewer_id": "U-01171",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d2",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:57:48.028Z",
+        "device_time": null,
+        "freshness_s": 68531,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01171"
+      },
+      {
+        "value": "d5",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T17:29:19.486Z",
+        "device_time": "2026-10-01T17:29:19.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:c70443f8-c1a1-4543-b832-3ca93acc26ff"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "lapsed",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:57:48.028Z",
+        "device_time": null,
+        "freshness_s": 68531,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01171"
+      },
+      {
+        "value": "lapsed",
+        "source": "event_stream",
+        "observed_at": "2026-09-23T00:19:27.109Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:7472072c-447c-47b2-ad01-4540290be9b0"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-01-03T03:16:02.766Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:57:48.028Z",
+        "device_time": null,
+        "freshness_s": 68531,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01171"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:57:48.028Z",
+        "device_time": null,
+        "freshness_s": 68531,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01171"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T04:57:48.028Z",
+        "device_time": null,
+        "freshness_s": 68531,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01171"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1177",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T15:03:51.052Z",
+        "device_time": null,
+        "freshness_s": 76878,
+        "clock_skew_s": 0,
+        "ref_id": "event:000e03d8-a64f-40ce-8f69-af995f60dd51"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1180",
+        "source": "event_stream",
+        "observed_at": "2026-09-21T04:00:01.277Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:8610f106-7386-4c99-88cb-789145230087"
+      }
+    ]
+  },
+  "play_count": 7,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T17:29:19.486Z",
+  "genre_counts": {
+    "Devotional": 7,
+    "Comedy": 1,
+    "Family": 2
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-2665",
+    "created_at": "2026-10-01T17:29:16.162Z",
+    "deadline": "2026-10-04T17:29:16.161Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T1177",
+      "title:T1221",
+      "title:T1180",
+      "title:T1202",
+      "title:T1285",
+      "title:T1384",
+      "title:T1224",
+      "title:T1293",
+      "title:T1196"
+    ],
+    "target_slug": "bhama-chunapi-d5",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T17:29:16.162Z",
+  "last_home_page_dialect": "d5",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0474",
+    "D-1259",
+    "D-2077",
+    "D-2665",
+    "D-2666"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T17:29:16.161Z without play_started."
+  ],
+  "seen_triggers_count": 5,
+  "seen_events_count": 49
+}

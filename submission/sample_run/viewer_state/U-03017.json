@@ -1,0 +1,149 @@
+{
+  "user_id": "U-03017",
+  "viewer_id": "U-03017",
+  "arm": "agent",
+  "facts": {
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T19:27:32.302Z",
+        "device_time": null,
+        "freshness_s": 102747,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03017"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-27T00:32:10.049Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:cca2cdad-8b85-4510-b888-5686d646b352"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-29T02:24:58.925Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T19:27:32.302Z",
+        "device_time": null,
+        "freshness_s": 102747,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03017"
+      },
+      {
+        "value": "2026-09-29T02:24:59.625Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T02:24:59.625Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:28152382-4239-4783-9278-134ccb38cb1e"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T19:27:32.302Z",
+        "device_time": null,
+        "freshness_s": 102747,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03017"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T19:27:32.302Z",
+        "device_time": null,
+        "freshness_s": 102747,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03017"
+      }
+    ],
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T12:10:50.219Z",
+        "device_time": "2026-10-01T12:10:50.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:3783c503-6098-4c7d-bd70-b9831006d3cd"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0002",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T12:38:21.595Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:39f76d95-275e-43b6-a0a7-d4a64efb9f4a"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0002",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T12:41:08.214Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:a0f91513-803f-4b3b-9b8b-4af64f9a33d5"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T12:10:50.219Z",
+  "genre_counts": {
+    "Devotional": 1,
+    "Action": 1,
+    "Comedy": 1,
+    "Thriller": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G08",
+    "goal_name": "try_new_release_7d",
+    "rule_version": "G08-2026-09-30",
+    "decision_id": "D-1340",
+    "created_at": "2026-10-01T10:45:25.697Z",
+    "deadline": "2026-10-08T10:45:25.696Z",
+    "success_event": "play_started",
+    "success_condition": "a title released in the 30 days before the goal start",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0002",
+      "title:T0070",
+      "title:T0417",
+      "title:T0465",
+      "title:T0075",
+      "title:T0127",
+      "title:T0384",
+      "title:T0147",
+      "title:T0405"
+    ],
+    "target_slug": null,
+    "status": "SUCCEEDED"
+  },
+  "last_home_page_at": "2026-10-01T10:45:25.697Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0184",
+    "D-1340",
+    "D-1533"
+  ],
+  "learnings": [
+    "Goal G08 (G08-2026-09-30) SUCCEEDED via event:oua-018883."
+  ],
+  "seen_triggers_count": 3,
+  "seen_events_count": 22
+}

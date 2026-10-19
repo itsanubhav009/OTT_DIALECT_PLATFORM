@@ -1,0 +1,83 @@
+{
+  "user_id": "U-04778",
+  "viewer_id": "U-04778",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d4",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T15:48:48.351Z",
+        "device_time": "2026-10-01T15:48:48.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:08dc75b8-34f6-44b1-a403-e9f223c4979e"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-30T10:41:01.618Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T10:41:01.618Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:86a72129-df11-4b8b-9eca-3ade79ebf0cc"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T10:41:01.618Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:86a72129-df11-4b8b-9eca-3ade79ebf0cc"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T15:48:48.351Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G03",
+    "goal_name": "second_day_return_2d",
+    "rule_version": "G03-corrected@2026-10-01T08:30",
+    "decision_id": "D-1949",
+    "created_at": "2026-10-01T14:40:00.537Z",
+    "deadline": "2026-10-03T14:40:00.536Z",
+    "success_event": "play_started",
+    "success_condition": "on a later IST calendar day within the window",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T1040",
+      "title:T1107",
+      "title:T1116",
+      "title:T1014",
+      "title:T1101",
+      "title:T1150",
+      "title:T1031",
+      "title:T0956",
+      "title:T1083"
+    ],
+    "target_slug": null,
+    "status": "SUCCEEDED"
+  },
+  "last_home_page_at": "2026-10-01T14:40:00.537Z",
+  "last_home_page_dialect": "d4",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0123",
+    "D-1949",
+    "D-2332"
+  ],
+  "learnings": [
+    "Applied mid-replay rule correction to open G03 plan at 2026-10-01T08:30:00.000Z.",
+    "Goal G03 (G03-corrected@2026-10-01T08:30) SUCCEEDED via event:oua-029989."
+  ],
+  "seen_triggers_count": 3,
+  "seen_events_count": 8
+}

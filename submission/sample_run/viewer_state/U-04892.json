@@ -1,0 +1,136 @@
+{
+  "user_id": "U-04892",
+  "viewer_id": "U-04892",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T14:35:41.188Z",
+        "device_time": null,
+        "freshness_s": 33858,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04892"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T14:28:47.536Z",
+        "device_time": "2026-10-01T14:28:46.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:b013d525-e61c-44a6-bfab-66cb1de24b56"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T14:35:41.188Z",
+        "device_time": null,
+        "freshness_s": 33858,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04892"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-06-23T19:11:25.190Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T14:35:41.188Z",
+        "device_time": null,
+        "freshness_s": 33858,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04892"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T14:35:41.188Z",
+        "device_time": null,
+        "freshness_s": 33858,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04892"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T14:35:41.188Z",
+        "device_time": null,
+        "freshness_s": 33858,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04892"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0002",
+        "source": "event_stream",
+        "observed_at": "2026-09-27T07:48:56.842Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:11012e0c-37b9-4370-991f-f48aa7e06c03"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0002",
+        "source": "event_stream",
+        "observed_at": "2026-09-27T07:51:41.286Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:abf92817-1a3f-4bd8-b16b-908a981be4e5"
+      }
+    ]
+  },
+  "play_count": 1,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T14:28:47.536Z",
+  "genre_counts": {
+    "Comedy": 1,
+    "Thriller": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1908",
+    "created_at": "2026-10-01T14:28:47.537Z",
+    "deadline": "2026-10-04T14:28:47.536Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0002",
+      "title:T0413",
+      "title:T0419",
+      "title:T0072",
+      "title:T0230",
+      "title:T0447",
+      "title:T0196",
+      "title:T0465",
+      "title:T0127"
+    ],
+    "target_slug": "hama-chudibha-d1",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T14:28:47.537Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1908"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T14:28:47.536Z without play_started."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 18
+}

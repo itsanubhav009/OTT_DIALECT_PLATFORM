@@ -1,0 +1,42 @@
+{
+  "user_id": "U-04950",
+  "viewer_id": "U-04950",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "campaign_link",
+        "observed_at": "2026-09-06T16:08:21.557Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:c735074d-06f4-4d6b-9bda-22b90d12bfed"
+      },
+      {
+        "value": "d4",
+        "source": "app_setting",
+        "observed_at": "2026-09-30T14:58:57.583Z",
+        "device_time": "2026-09-29T21:57:00.351Z",
+        "freshness_s": 0,
+        "clock_skew_s": 61317,
+        "ref_id": "event:b8ebb62e-26bb-4599-95d7-141fed8b5836"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-09-30T14:56:41.074Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0508"
+  ],
+  "learnings": [],
+  "seen_triggers_count": 1,
+  "seen_events_count": 21
+}

@@ -1,0 +1,158 @@
+{
+  "user_id": "U-01491",
+  "viewer_id": "U-01491",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T22:49:46.456Z",
+        "device_time": null,
+        "freshness_s": 90613,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01491"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T07:03:09.163Z",
+        "device_time": "2026-10-01T07:03:08.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:c4aa35fb-cb54-4d3f-a568-0d6f6efd61bd"
+      },
+      {
+        "value": "d1",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T07:03:09.163Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:c4aa35fb-cb54-4d3f-a568-0d6f6efd61bd"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T22:49:46.456Z",
+        "device_time": null,
+        "freshness_s": 90613,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01491"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-04T16:24:54.355Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:4d524b4c-6faa-4879-80ba-9bc10f6eac3d"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-01-31T00:26:42.735Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T22:49:46.456Z",
+        "device_time": null,
+        "freshness_s": 90613,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01491"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T22:49:46.456Z",
+        "device_time": null,
+        "freshness_s": 90613,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01491"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T22:49:46.456Z",
+        "device_time": null,
+        "freshness_s": 90613,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01491"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1503",
+        "source": "event_stream",
+        "observed_at": "2026-09-28T16:13:08.382Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:532e012c-ea5a-46d1-92da-cd63d7eb012d"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1503",
+        "source": "event_stream",
+        "observed_at": "2026-09-18T14:47:19.259Z",
+        "device_time": null,
+        "freshness_s": 336209,
+        "clock_skew_s": 0,
+        "ref_id": "event:23fe4f97-4d8e-4779-995f-fa53f81e2d4a"
+      }
+    ]
+  },
+  "play_count": 18,
+  "complete_count": 10,
+  "last_open_at": "2026-10-01T07:03:09.163Z",
+  "genre_counts": {
+    "Devotional": 13,
+    "Action": 6,
+    "Drama": 5,
+    "Thriller": 4,
+    "Comedy": 7
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G08",
+    "goal_name": "try_new_release_7d",
+    "rule_version": "G08-2026-09-30",
+    "decision_id": "D-0858",
+    "created_at": "2026-10-01T07:03:09.164Z",
+    "deadline": "2026-10-08T07:03:09.163Z",
+    "success_event": "play_started",
+    "success_condition": "a title released in the 30 days before the goal start",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0008",
+      "title:T0004",
+      "title:T0003",
+      "title:T0070",
+      "title:T0417",
+      "title:T0465",
+      "title:T0075",
+      "title:T0127",
+      "title:T0384"
+    ],
+    "target_slug": null,
+    "status": "SUCCEEDED"
+  },
+  "last_home_page_at": "2026-10-01T07:03:09.164Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0448",
+    "D-0858"
+  ],
+  "learnings": [
+    "Goal G08 (G08-2026-09-30) SUCCEEDED via event:oua-010230."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 146
+}

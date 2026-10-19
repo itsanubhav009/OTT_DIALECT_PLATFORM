@@ -1,0 +1,127 @@
+{
+  "user_id": "U-04814",
+  "viewer_id": "U-04814",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T05:16:50.211Z",
+        "device_time": null,
+        "freshness_s": 67389,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04814"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T16:47:41.791Z",
+        "device_time": "2026-10-01T16:47:41.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:502df581-cfe3-4810-b3a8-d46bc33794ec"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T05:16:50.211Z",
+        "device_time": null,
+        "freshness_s": 67389,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04814"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-10-05T00:24:51.937Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T05:16:50.211Z",
+        "device_time": null,
+        "freshness_s": 67389,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04814"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T05:16:50.211Z",
+        "device_time": null,
+        "freshness_s": 67389,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04814"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T05:16:50.211Z",
+        "device_time": null,
+        "freshness_s": 67389,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04814"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1501",
+        "source": "event_stream",
+        "observed_at": "2026-09-10T14:04:16.251Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:655f559c-19a7-4461-8d14-3445344f8ce2"
+      }
+    ]
+  },
+  "play_count": 1,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T16:47:41.791Z",
+  "genre_counts": {
+    "Devotional": 1,
+    "Action": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G02",
+    "goal_name": "first_full_episode_3d",
+    "rule_version": "G02-2026-09-30",
+    "decision_id": "D-2535",
+    "created_at": "2026-10-01T16:47:41.792Z",
+    "deadline": "2026-10-04T16:47:41.791Z",
+    "success_event": "episode_completed",
+    "success_condition": "any episode",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0070",
+      "title:T0417",
+      "title:T0465",
+      "title:T0075",
+      "title:T0127",
+      "title:T0384",
+      "title:T0147",
+      "title:T0405",
+      "title:T0278"
+    ],
+    "target_slug": null,
+    "status": "SUCCEEDED"
+  },
+  "last_home_page_at": "2026-10-01T16:47:41.792Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0093",
+    "D-0779",
+    "D-2535"
+  ],
+  "learnings": [
+    "Goal G02 (G02-2026-09-30) SUCCEEDED via event:oua-030301."
+  ],
+  "seen_triggers_count": 3,
+  "seen_events_count": 12
+}

@@ -1,0 +1,150 @@
+{
+  "user_id": "U-00615",
+  "viewer_id": "U-00615",
+  "arm": "holdout",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T17:27:22.198Z",
+        "device_time": null,
+        "freshness_s": 23557,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00615"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T02:45:46.336Z",
+        "device_time": "2026-09-30T12:13:51.716Z",
+        "freshness_s": 0,
+        "clock_skew_s": 52314,
+        "ref_id": "event:0682d134-6462-4a7a-acb5-afd4180b7e0b"
+      },
+      {
+        "value": "d1",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T16:31:40.914Z",
+        "device_time": null,
+        "freshness_s": 129060,
+        "clock_skew_s": 0,
+        "ref_id": "event:8e323ba7-75a3-47bf-aac7-fc0650013599"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T17:27:22.198Z",
+        "device_time": null,
+        "freshness_s": 23557,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00615"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-11T22:12:33.842Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:02c28762-5dee-46b8-b100-cd0688f86097"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-11T22:04:43.372Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T17:27:22.198Z",
+        "device_time": null,
+        "freshness_s": 23557,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00615"
+      },
+      {
+        "value": "2026-09-11T22:04:44.711Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-11T22:04:44.711Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:0870950c-00b4-4bdf-89b2-13434acfcc30"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T17:27:22.198Z",
+        "device_time": null,
+        "freshness_s": 23557,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00615"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T17:27:22.198Z",
+        "device_time": null,
+        "freshness_s": 23557,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00615"
+      }
+    ],
+    "purchase_completed": [
+      {
+        "value": {
+          "is_trial": false,
+          "plan_id": "P_MONTH"
+        },
+        "source": "event_stream",
+        "observed_at": "2026-09-11T22:12:33.842Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:02c28762-5dee-46b8-b100-cd0688f86097"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T17:23:47.653Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:f57dc65c-c80d-4b9f-87ba-641f5ed09b37"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-14T18:40:19.329Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:d4e53521-5d5b-434c-85c2-853c22a83fe4"
+      }
+    ]
+  },
+  "play_count": 4,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T02:45:46.336Z",
+  "genre_counts": {
+    "Drama": 4,
+    "Thriller": 4
+  },
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [],
+  "learnings": [],
+  "seen_triggers_count": 2,
+  "seen_events_count": 29
+}

@@ -1,0 +1,42 @@
+{
+  "viewer_id": "V-6099",
+  "is_holdout": false,
+  "facts": {
+    "dialect": [
+      {
+        "value": "d2",
+        "source": "campaign_link",
+        "observed_at": "2026-09-12T19:07:33Z",
+        "device_time": null,
+        "freshness_s": 3,
+        "clock_skew_s": 0,
+        "ref_id": "event:E88400"
+      }
+    ],
+    "activity": [
+      {
+        "value": "app_open",
+        "source": "event_stream",
+        "observed_at": "2026-09-12T19:07:33Z",
+        "device_time": "2026-09-12T19:07:30Z",
+        "freshness_s": 3,
+        "clock_skew_s": 0,
+        "ref_id": "event:E88400"
+      }
+    ]
+  },
+  "seen_event_ids": [
+    "E88400"
+  ],
+  "seen_trigger_keys": [
+    "E88400:app_open"
+  ],
+  "watched_episodes": {},
+  "active_plan": null,
+  "messages_sent_timestamps": [],
+  "recent_actions": [],
+  "decision_history": [
+    "D-0005"
+  ],
+  "learnings": []
+}

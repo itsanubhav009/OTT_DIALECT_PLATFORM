@@ -1,0 +1,150 @@
+{
+  "user_id": "U-03519",
+  "viewer_id": "U-03519",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d2",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T00:34:05.904Z",
+        "device_time": null,
+        "freshness_s": 84354,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03519"
+      },
+      {
+        "value": "d3",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T07:16:14.546Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:dea7bc5b-30b7-4f8d-a4d5-dcdbd2c1d7d3"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T00:34:05.904Z",
+        "device_time": null,
+        "freshness_s": 84354,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03519"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-24T09:22:24.692Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:294c09f1-4f50-4171-b4be-2ceefdd338fd"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-09-24T21:23:17.297Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T00:34:05.904Z",
+        "device_time": null,
+        "freshness_s": 84354,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03519"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T00:34:05.904Z",
+        "device_time": null,
+        "freshness_s": 84354,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03519"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T00:34:05.904Z",
+        "device_time": null,
+        "freshness_s": 84354,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03519"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T02:11:26.147Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:12cf91b3-5e1a-4fcf-b347-52d9481f271e"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0001",
+        "source": "event_stream",
+        "observed_at": "2026-09-29T04:01:50.966Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:ed51cbf3-61e2-4e8a-a26c-03338a17711a"
+      }
+    ]
+  },
+  "play_count": 11,
+  "complete_count": 6,
+  "last_open_at": "2026-10-01T14:08:45.967Z",
+  "genre_counts": {
+    "Drama": 3,
+    "Thriller": 2,
+    "Romance": 9,
+    "Action": 3,
+    "Devotional": 2
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G08",
+    "goal_name": "try_new_release_7d",
+    "rule_version": "G08-2026-09-30",
+    "decision_id": "D-1831",
+    "created_at": "2026-10-01T14:08:45.968Z",
+    "deadline": "2026-10-08T14:08:45.967Z",
+    "success_event": "play_started",
+    "success_condition": "a title released in the 30 days before the goal start",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0909",
+      "title:T0901",
+      "title:T0910",
+      "title:T0905",
+      "title:T0902",
+      "title:T0904",
+      "title:T0906",
+      "title:T0911",
+      "title:T0908"
+    ],
+    "target_slug": null,
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T14:08:45.968Z",
+  "last_home_page_dialect": "d3",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0891",
+    "D-1831",
+    "D-2677"
+  ],
+  "learnings": [
+    "Goal G08 (G08-2026-09-30) FAILED: window closed at 2026-10-08T14:08:45.967Z without play_started."
+  ],
+  "seen_triggers_count": 3,
+  "seen_events_count": 85
+}

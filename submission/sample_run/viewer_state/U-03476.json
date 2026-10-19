@@ -1,0 +1,137 @@
+{
+  "user_id": "U-03476",
+  "viewer_id": "U-03476",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d4",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:42:25.122Z",
+        "device_time": null,
+        "freshness_s": 87454,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03476"
+      },
+      {
+        "value": "d2",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T12:28:45.472Z",
+        "device_time": "2026-10-01T12:28:44.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:159ef983-fc93-4358-9a36-54c4b9b53c27"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:42:25.122Z",
+        "device_time": null,
+        "freshness_s": 87454,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03476"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-12-25T12:38:09.001Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:42:25.122Z",
+        "device_time": null,
+        "freshness_s": 87454,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03476"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:42:25.122Z",
+        "device_time": null,
+        "freshness_s": 87454,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03476"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:42:25.122Z",
+        "device_time": null,
+        "freshness_s": 87454,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03476"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0531",
+        "source": "event_stream",
+        "observed_at": "2026-09-21T17:18:44.921Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:1b4eae68-2314-4be5-9dc3-31030eb7d193"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0531",
+        "source": "event_stream",
+        "observed_at": "2026-09-21T17:48:11.360Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:8476179b-2c5f-410b-b3cc-b474e23a87a5"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T12:28:45.472Z",
+  "genre_counts": {
+    "Romance": 1,
+    "Devotional": 1,
+    "Crime": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1570",
+    "created_at": "2026-10-01T12:28:45.473Z",
+    "deadline": "2026-10-04T12:28:45.472Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0522",
+      "title:T0531",
+      "title:T0746",
+      "title:T0706",
+      "title:T0530",
+      "title:T0762",
+      "title:T0633",
+      "title:T0556",
+      "title:T0840"
+    ],
+    "target_slug": "guka-kosusa-d2",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T12:28:45.473Z",
+  "last_home_page_dialect": "d2",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1570"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T12:28:45.472Z without play_started."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 32
+}

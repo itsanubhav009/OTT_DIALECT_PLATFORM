@@ -1,0 +1,84 @@
+{
+  "user_id": "U-02493",
+  "viewer_id": "U-02493",
+  "arm": "holdout",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d6",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:00:16.441Z",
+        "device_time": null,
+        "freshness_s": 82783,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02493"
+      },
+      {
+        "value": "d6",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T15:06:38.165Z",
+        "device_time": "2026-10-01T15:06:35.975Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:da90ff36-48d8-4e79-b084-9671a4f7bc58"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:00:16.441Z",
+        "device_time": null,
+        "freshness_s": 82783,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02493"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-06-19T22:16:54.441Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:00:16.441Z",
+        "device_time": null,
+        "freshness_s": 82783,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02493"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:00:16.441Z",
+        "device_time": null,
+        "freshness_s": 82783,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02493"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:00:16.441Z",
+        "device_time": null,
+        "freshness_s": 82783,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02493"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T15:06:37.829Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [],
+  "learnings": [],
+  "seen_triggers_count": 3,
+  "seen_events_count": 11
+}

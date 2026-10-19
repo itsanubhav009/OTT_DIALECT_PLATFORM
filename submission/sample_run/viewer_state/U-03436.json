@@ -1,0 +1,77 @@
+{
+  "user_id": "U-03436",
+  "viewer_id": "U-03436",
+  "arm": "agent",
+  "facts": {
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T16:50:24.428Z",
+        "device_time": null,
+        "freshness_s": 25775,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03436"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-05-27T14:47:13.305Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T16:50:24.428Z",
+        "device_time": null,
+        "freshness_s": 25775,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03436"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T16:50:24.428Z",
+        "device_time": null,
+        "freshness_s": 25775,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03436"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T16:50:24.428Z",
+        "device_time": null,
+        "freshness_s": 25775,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03436"
+      }
+    ],
+    "dialect": [
+      {
+        "value": "NA",
+        "source": "app_setting",
+        "observed_at": "2026-09-09T06:22:09.357Z",
+        "device_time": "2026-09-09T06:20:13.000Z",
+        "freshness_s": 115,
+        "clock_skew_s": 1,
+        "ref_id": "event:ff38f869-7910-4e92-96bf-67c512d70ac6"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T08:29:39.069Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1065"
+  ],
+  "learnings": [],
+  "seen_triggers_count": 1,
+  "seen_events_count": 24
+}

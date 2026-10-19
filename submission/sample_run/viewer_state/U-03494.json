@@ -1,0 +1,131 @@
+{
+  "user_id": "U-03494",
+  "viewer_id": "U-03494",
+  "arm": "holdout",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d3",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T12:47:14.154Z",
+        "device_time": null,
+        "freshness_s": 40365,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03494"
+      },
+      {
+        "value": "d4",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T16:46:02.272Z",
+        "device_time": "2026-10-01T16:46:02.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:a11bb707-ee90-419f-a134-00452d2b2cd1"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T12:47:14.154Z",
+        "device_time": null,
+        "freshness_s": 40365,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03494"
+      },
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-01T13:47:37.958Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:eaa45945-1fcf-45c5-af26-83d4587dd438"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2025-02-11T21:09:39.457Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T12:47:14.154Z",
+        "device_time": null,
+        "freshness_s": 40365,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03494"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T12:47:14.154Z",
+        "device_time": null,
+        "freshness_s": 40365,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03494"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T12:47:14.154Z",
+        "device_time": null,
+        "freshness_s": 40365,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03494"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1811",
+        "source": "event_stream",
+        "observed_at": "2026-09-01T13:36:06.071Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:70e3d878-a993-4a53-92b5-daab6e37c854"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1811",
+        "source": "event_stream",
+        "observed_at": "2026-09-01T13:39:45.831Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:47cb1322-9a0d-4478-9fa5-d2c66c870db6"
+      }
+    ],
+    "purchase_completed": [
+      {
+        "value": {
+          "is_trial": false,
+          "plan_id": "P_MONTH"
+        },
+        "source": "event_stream",
+        "observed_at": "2026-09-01T13:47:37.958Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:eaa45945-1fcf-45c5-af26-83d4587dd438"
+      }
+    ]
+  },
+  "play_count": 1,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T16:46:02.272Z",
+  "genre_counts": {
+    "Romance": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [],
+  "learnings": [],
+  "seen_triggers_count": 2,
+  "seen_events_count": 15
+}

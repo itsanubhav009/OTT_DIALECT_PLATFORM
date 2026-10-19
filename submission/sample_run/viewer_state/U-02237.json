@@ -1,0 +1,151 @@
+{
+  "user_id": "U-02237",
+  "viewer_id": "U-02237",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d6",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:07:16.829Z",
+        "device_time": null,
+        "freshness_s": 64363,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02237"
+      },
+      {
+        "value": "d6",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T12:01:49.839Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:dbf983b6-b22b-4bd0-a881-c84ef0652cb3"
+      },
+      {
+        "value": "d6",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T12:58:57.782Z",
+        "device_time": "2026-10-01T12:58:56.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:e74fec09-17b9-432b-8f18-fe849689b8c9"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "lapsed",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:07:16.829Z",
+        "device_time": null,
+        "freshness_s": 64363,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02237"
+      },
+      {
+        "value": "lapsed",
+        "source": "event_stream",
+        "observed_at": "2026-09-02T21:27:10.873Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:d6381051-830e-44cb-88a8-d917e953fbfa"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-08-06T00:15:22.055Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:07:16.829Z",
+        "device_time": null,
+        "freshness_s": 64363,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02237"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:07:16.829Z",
+        "device_time": null,
+        "freshness_s": 64363,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02237"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:07:16.829Z",
+        "device_time": null,
+        "freshness_s": 64363,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02237"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1388",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T17:30:24.248Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:5648207e-4ced-491c-bfb9-4772a38b884f"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1388",
+        "source": "event_stream",
+        "observed_at": "2026-09-30T19:45:39.784Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:911620af-a8fe-4773-ba74-25f229fa2466"
+      }
+    ]
+  },
+  "play_count": 14,
+  "complete_count": 11,
+  "last_open_at": "2026-10-01T12:58:57.782Z",
+  "genre_counts": {
+    "Devotional": 9,
+    "Thriller": 12,
+    "Crime": 2,
+    "Comedy": 5
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1629",
+    "created_at": "2026-10-01T12:58:57.783Z",
+    "deadline": "2026-10-04T12:58:57.782Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "WHATSAPP",
+    "target_content": [
+      "title:T1387"
+    ],
+    "target_slug": "rasuya-moni-d6",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T12:01:49.840Z",
+  "last_home_page_dialect": "d6",
+  "messages_sent_ist_days": [
+    "2026-10-01"
+  ],
+  "decision_history": [
+    "D-1514",
+    "D-1629"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T12:58:57.782Z without play_started."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 126
+}

@@ -1,0 +1,92 @@
+{
+  "user_id": "U-02320",
+  "viewer_id": "U-02320",
+  "arm": "agent",
+  "facts": {
+    "subscription_status": [
+      {
+        "value": "lapsed",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:41:48.597Z",
+        "device_time": null,
+        "freshness_s": 80291,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02320"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-07-26T20:48:31.081Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:41:48.597Z",
+        "device_time": null,
+        "freshness_s": 80291,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02320"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:41:48.597Z",
+        "device_time": null,
+        "freshness_s": 80291,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02320"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:41:48.597Z",
+        "device_time": null,
+        "freshness_s": 80291,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-02320"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T13:14:12.189Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G02",
+    "goal_name": "first_full_episode_3d",
+    "rule_version": "G02-2026-09-30",
+    "decision_id": "D-1612",
+    "created_at": "2026-10-01T12:48:46.948Z",
+    "deadline": "2026-10-04T12:48:46.947Z",
+    "success_event": "episode_completed",
+    "success_condition": "any episode",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0426",
+      "title:T0413",
+      "title:T0126",
+      "title:T0419",
+      "title:T0076",
+      "title:T0072",
+      "title:T0060",
+      "title:T0274",
+      "title:T0097"
+    ],
+    "target_slug": null,
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T12:48:46.948Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1612",
+    "D-1668"
+  ],
+  "learnings": [
+    "Goal G02 (G02-2026-09-30) FAILED: window closed at 2026-10-04T12:48:46.947Z without episode_completed."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 4
+}

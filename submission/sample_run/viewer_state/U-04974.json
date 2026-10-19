@@ -1,0 +1,141 @@
+{
+  "user_id": "U-04974",
+  "viewer_id": "U-04974",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:07:40.840Z",
+        "device_time": null,
+        "freshness_s": 53539,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04974"
+      },
+      {
+        "value": "d5",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T10:01:09.419Z",
+        "device_time": "2026-10-01T10:01:08.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:6d635ba4-bb3e-4c03-906f-505a7482ceab"
+      },
+      {
+        "value": "d5",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T10:01:09.419Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:6d635ba4-bb3e-4c03-906f-505a7482ceab"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:07:40.840Z",
+        "device_time": null,
+        "freshness_s": 53539,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04974"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-07-29T09:33:50.409Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:07:40.840Z",
+        "device_time": null,
+        "freshness_s": 53539,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04974"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:07:40.840Z",
+        "device_time": null,
+        "freshness_s": 53539,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04974"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:07:40.840Z",
+        "device_time": null,
+        "freshness_s": 53539,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04974"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T1177",
+        "source": "event_stream",
+        "observed_at": "2026-09-19T08:17:54.772Z",
+        "device_time": null,
+        "freshness_s": 353170,
+        "clock_skew_s": 0,
+        "ref_id": "event:4c66f9c4-ff9d-4267-8b3c-7b0d87f35047"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T1177",
+        "source": "event_stream",
+        "observed_at": "2026-09-13T05:12:00.103Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:b06b27eb-a4ed-4464-998c-2be7cc0558fb"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T10:01:09.419Z",
+  "genre_counts": {
+    "Devotional": 2
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1255",
+    "created_at": "2026-10-01T10:01:09.420Z",
+    "deadline": "2026-10-04T10:01:09.419Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "WHATSAPP",
+    "target_content": [
+      "title:T1178"
+    ],
+    "target_slug": "gubava-gihaya-d5",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T10:01:09.385Z",
+  "last_home_page_dialect": "d5",
+  "messages_sent_ist_days": [
+    "2026-10-01"
+  ],
+  "decision_history": [
+    "D-0298",
+    "D-0632",
+    "D-1254",
+    "D-1255"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T10:01:09.419Z without play_started."
+  ],
+  "seen_triggers_count": 4,
+  "seen_events_count": 26
+}

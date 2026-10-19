@@ -1,0 +1,147 @@
+{
+  "user_id": "U-00374",
+  "viewer_id": "U-00374",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d3",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T18:50:35.131Z",
+        "device_time": null,
+        "freshness_s": 104964,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00374"
+      },
+      {
+        "value": "d3",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T18:27:47.895Z",
+        "device_time": "2026-10-01T18:27:46.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:681620ab-be42-4736-b8a0-091e39a477b9"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T18:50:35.131Z",
+        "device_time": null,
+        "freshness_s": 104964,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00374"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-03T03:29:52.506Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T18:50:35.131Z",
+        "device_time": null,
+        "freshness_s": 104964,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00374"
+      },
+      {
+        "value": "2026-09-03T03:29:53.128Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-03T03:29:53.128Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:28b3582b-9249-4485-9dad-fdeda30854b1"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T18:50:35.131Z",
+        "device_time": null,
+        "freshness_s": 104964,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00374"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T18:50:35.131Z",
+        "device_time": null,
+        "freshness_s": 104964,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-00374"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0909",
+        "source": "event_stream",
+        "observed_at": "2026-09-21T06:25:52.836Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:83f15e25-bfcf-40c3-93dc-36c138898c0d"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0909",
+        "source": "event_stream",
+        "observed_at": "2026-09-21T07:07:15.477Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:1ebda187-7b48-45e5-8d4b-b84c4d7b9c53"
+      }
+    ]
+  },
+  "play_count": 3,
+  "complete_count": 3,
+  "last_open_at": "2026-10-01T18:27:47.895Z",
+  "genre_counts": {
+    "Romance": 3,
+    "Comedy": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-2566",
+    "created_at": "2026-10-01T16:56:31.449Z",
+    "deadline": "2026-10-04T16:56:31.448Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0909",
+      "title:T0901",
+      "title:T0910",
+      "title:T0905",
+      "title:T0902",
+      "title:T0904",
+      "title:T0906",
+      "title:T0911",
+      "title:T0908"
+    ],
+    "target_slug": "yatite-roloda-d3",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T16:56:31.449Z",
+  "last_home_page_dialect": "d3",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0741",
+    "D-2566",
+    "D-2767"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T16:56:31.448Z without play_started."
+  ],
+  "seen_triggers_count": 3,
+  "seen_events_count": 39
+}

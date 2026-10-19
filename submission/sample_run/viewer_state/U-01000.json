@@ -1,0 +1,21 @@
+{
+  "user_id": "U-01000",
+  "viewer_id": "U-01000",
+  "arm": "agent",
+  "facts": {},
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": null,
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1277"
+  ],
+  "learnings": [],
+  "seen_triggers_count": 1,
+  "seen_events_count": 1
+}

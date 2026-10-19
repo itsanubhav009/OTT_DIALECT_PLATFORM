@@ -1,0 +1,112 @@
+{
+  "viewer_id": "V-2291",
+  "is_holdout": false,
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-11T19:00:00Z",
+        "device_time": null,
+        "freshness_s": 86640,
+        "clock_skew_s": 0,
+        "ref_id": "profile:snap_2291_new"
+      },
+      {
+        "value": "d3",
+        "source": "app_setting",
+        "observed_at": "2026-09-12T19:04:11Z",
+        "device_time": "2026-09-12T19:04:02Z",
+        "freshness_s": 9,
+        "clock_skew_s": 0,
+        "ref_id": "event:E88123"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "free",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-11T19:00:00Z",
+        "device_time": null,
+        "freshness_s": 86640,
+        "clock_skew_s": 0,
+        "ref_id": "profile:snap_2291_new"
+      }
+    ],
+    "consent_messaging": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-11T19:00:00Z",
+        "device_time": null,
+        "freshness_s": 86640,
+        "clock_skew_s": 0,
+        "ref_id": "profile:snap_2291_new"
+      }
+    ],
+    "activity": [
+      {
+        "value": "app_open",
+        "source": "event_stream",
+        "observed_at": "2026-09-12T19:04:11Z",
+        "device_time": "2026-09-12T19:04:02Z",
+        "freshness_s": 9,
+        "clock_skew_s": 0,
+        "ref_id": "event:E88123"
+      }
+    ],
+    "completed_episode": [
+      {
+        "value": "T0412",
+        "source": "event_stream",
+        "observed_at": "2026-09-13T12:00:00Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:E99001"
+      }
+    ]
+  },
+  "seen_event_ids": [
+    "E88123",
+    "E99001"
+  ],
+  "seen_trigger_keys": [
+    "E88123:app_open"
+  ],
+  "watched_episodes": {
+    "T0412": 0.95
+  },
+  "active_plan": {
+    "goal_id": "first_full_episode_3d",
+    "rule_id": "G01-r2",
+    "decision_id": "D-0001",
+    "created_at": "2026-09-12T19:04:11Z",
+    "deadline": "2026-09-15T19:04:11Z",
+    "success_signal": "episode_complete",
+    "rule_version": "r2",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0412",
+      "title:T0977",
+      "title:T1203"
+    ],
+    "template_id": null,
+    "status": "SUCCEEDED"
+  },
+  "messages_sent_timestamps": [],
+  "recent_actions": [
+    {
+      "decision_id": "D-0001",
+      "signature": "HOME_PAGE:title:T0412,title:T0977,title:T1203",
+      "at": "2026-09-12T19:04:11Z"
+    }
+  ],
+  "decision_history": [
+    "D-0001"
+  ],
+  "learnings": [
+    "Resolved 2 duplicate profile rows (dialects=['d1', 'd2']); selected snap_2291_new.",
+    "Goal first_full_episode_3d succeeded via event:E99001."
+  ]
+}

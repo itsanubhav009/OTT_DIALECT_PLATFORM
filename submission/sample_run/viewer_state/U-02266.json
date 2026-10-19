@@ -1,0 +1,94 @@
+{
+  "user_id": "U-02266",
+  "viewer_id": "U-02266",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "campaign_link",
+        "observed_at": "2026-09-29T10:25:30.671Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:362d2264-254c-4ead-b119-2433e8f7fb48"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T08:02:01.097Z",
+        "device_time": "2026-10-01T08:01:59.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:3d5eb7bc-8951-4f5e-9932-59c31981cc65"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0002",
+        "source": "event_stream",
+        "observed_at": "2026-09-18T10:44:03.759Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:df114ee6-86ff-4667-9a5d-8ff563f9bd44"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "active",
+        "source": "event_stream",
+        "observed_at": "2026-09-13T18:54:01.391Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:07e2a20c-f503-44cb-abc9-40d86751a5ef"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T08:02:01.097Z",
+  "genre_counts": {
+    "Drama": 1,
+    "Romance": 1,
+    "Comedy": 1,
+    "Thriller": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G08",
+    "goal_name": "try_new_release_7d",
+    "rule_version": "G08-2026-09-30",
+    "decision_id": "D-0995",
+    "created_at": "2026-10-01T08:02:01.098Z",
+    "deadline": "2026-10-08T08:02:01.097Z",
+    "success_event": "play_started",
+    "success_condition": "a title released in the 30 days before the goal start",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0009",
+      "title:T0002",
+      "title:T0060",
+      "title:T0274",
+      "title:T0303",
+      "title:T0263",
+      "title:T0258",
+      "title:T0270",
+      "title:T0198"
+    ],
+    "target_slug": null,
+    "status": "SUCCEEDED"
+  },
+  "last_home_page_at": "2026-10-01T08:02:01.098Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0995"
+  ],
+  "learnings": [
+    "Goal G08 (G08-2026-09-30) SUCCEEDED via event:oua-014739."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 17
+}

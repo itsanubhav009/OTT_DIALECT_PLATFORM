@@ -1,0 +1,147 @@
+{
+  "user_id": "U-01672",
+  "viewer_id": "U-01672",
+  "arm": "agent",
+  "facts": {
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:32:07.029Z",
+        "device_time": null,
+        "freshness_s": 52072,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01672"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-11T08:23:18.243Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:32:07.029Z",
+        "device_time": null,
+        "freshness_s": 52072,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01672"
+      },
+      {
+        "value": "2026-09-11T08:23:18.867Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-11T08:23:18.867Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:88e3e13d-cfcc-4938-96f4-3f8df01003e8"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:32:07.029Z",
+        "device_time": null,
+        "freshness_s": 52072,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01672"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T09:32:07.029Z",
+        "device_time": null,
+        "freshness_s": 52072,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-01672"
+      }
+    ],
+    "dialect": [
+      {
+        "value": "d4",
+        "source": "campaign_link",
+        "observed_at": "2026-09-20T06:46:22.456Z",
+        "device_time": null,
+        "freshness_s": 690968,
+        "clock_skew_s": 0,
+        "ref_id": "event:c7317742-73fe-4247-ac29-0cdff681c1ae"
+      },
+      {
+        "value": "d3",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T12:04:21.025Z",
+        "device_time": "2026-10-01T12:04:19.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:a7a21ef3-a068-47d7-900a-34958426bb14"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0903",
+        "source": "event_stream",
+        "observed_at": "2026-09-12T16:22:59.675Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:fce5a2da-e552-43c4-93dd-21871dcf8ca8"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0903",
+        "source": "event_stream",
+        "observed_at": "2026-09-12T16:26:41.698Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:f81bc4e5-0fb3-46cc-94ed-a37a8188ea59"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 1,
+  "last_open_at": "2026-10-01T12:04:21.025Z",
+  "genre_counts": {
+    "Action": 1,
+    "Family": 1,
+    "Thriller": 1,
+    "Crime": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1517",
+    "created_at": "2026-10-01T12:04:21.026Z",
+    "deadline": "2026-10-04T12:04:21.025Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0913",
+      "title:T0903",
+      "title:T0911",
+      "title:T0908",
+      "title:T0905",
+      "title:T0902",
+      "title:T0904",
+      "title:T0906",
+      "title:T0909"
+    ],
+    "target_slug": "pima-pana-d3",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T12:04:21.026Z",
+  "last_home_page_dialect": "d3",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1517"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T12:04:21.025Z without play_started."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 35
+}

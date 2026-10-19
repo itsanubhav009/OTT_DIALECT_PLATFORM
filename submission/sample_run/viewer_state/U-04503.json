@@ -1,0 +1,150 @@
+{
+  "user_id": "U-04503",
+  "viewer_id": "U-04503",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:56:13.853Z",
+        "device_time": null,
+        "freshness_s": 86626,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04503"
+      },
+      {
+        "value": "d1",
+        "source": "campaign_link",
+        "observed_at": "2026-10-01T02:25:44.520Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:0af7abba-83f5-4f0a-b85f-6c4d81a74a91"
+      },
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T14:50:18.839Z",
+        "device_time": "2026-10-01T14:50:18.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:5050a44b-0d2e-464b-9280-f7d978f98746"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:56:13.853Z",
+        "device_time": null,
+        "freshness_s": 86626,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04503"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2024-10-10T19:05:02.836Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:56:13.853Z",
+        "device_time": null,
+        "freshness_s": 86626,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04503"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:56:13.853Z",
+        "device_time": null,
+        "freshness_s": 86626,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04503"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-28T23:56:13.853Z",
+        "device_time": null,
+        "freshness_s": 86626,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-04503"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0002",
+        "source": "event_stream",
+        "observed_at": "2026-09-07T18:47:31.550Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:c30c36d4-2393-4036-9309-94c13ee6efb8"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0002",
+        "source": "event_stream",
+        "observed_at": "2026-09-07T18:50:17.324Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:8ad45100-dcdb-458c-9b97-f4df164cbaac"
+      }
+    ]
+  },
+  "play_count": 2,
+  "complete_count": 2,
+  "last_open_at": "2026-10-01T14:50:18.839Z",
+  "genre_counts": {
+    "Drama": 1,
+    "Thriller": 2,
+    "Comedy": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-1982",
+    "created_at": "2026-10-01T14:50:18.840Z",
+    "deadline": "2026-10-04T14:50:18.839Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0002",
+      "title:T0419",
+      "title:T0097",
+      "title:T0211",
+      "title:T0028",
+      "title:T0196",
+      "title:T0031",
+      "title:T0070",
+      "title:T0384"
+    ],
+    "target_slug": "hama-chudibha-d1",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T14:50:18.840Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0145",
+    "D-0160",
+    "D-1422",
+    "D-1504",
+    "D-1982"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T14:50:18.839Z without play_started."
+  ],
+  "seen_triggers_count": 5,
+  "seen_events_count": 28
+}

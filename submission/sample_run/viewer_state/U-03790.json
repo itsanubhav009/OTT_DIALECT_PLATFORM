@@ -1,0 +1,82 @@
+{
+  "user_id": "U-03790",
+  "viewer_id": "U-03790",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d2",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T05:49:49.087Z",
+        "device_time": "2026-10-01T05:49:46.946Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:38df83c5-035d-497d-b80f-de33a6c7cf2a"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-10-01T05:49:07.996Z",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T05:49:07.996Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:f82453ca-b9e8-42f7-8401-72605df123b9"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T05:49:07.996Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:f82453ca-b9e8-42f7-8401-72605df123b9"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T05:49:49.087Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G03",
+    "goal_name": "second_day_return_2d",
+    "rule_version": "G03-corrected",
+    "decision_id": "D-0719",
+    "created_at": "2026-10-01T05:49:43.537Z",
+    "deadline": "2026-10-03T05:49:43.536Z",
+    "success_event": "play_started",
+    "success_condition": "on a later IST calendar day within the window",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0584",
+      "title:T0779",
+      "title:T0746",
+      "title:T0724",
+      "title:T0552",
+      "title:T0587",
+      "title:T0706",
+      "title:T0800",
+      "title:T0825"
+    ],
+    "target_slug": null,
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T05:49:43.537Z",
+  "last_home_page_dialect": "d2",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-0719",
+    "D-0720"
+  ],
+  "learnings": [
+    "Applied mid-replay rule correction to open G03 plan at 2026-10-01T08:30:00.000Z.",
+    "Goal G03 (G03-corrected) FAILED: window closed at 2026-10-03T05:49:43.536Z without play_started."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 3
+}

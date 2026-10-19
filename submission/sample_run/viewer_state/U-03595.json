@@ -1,0 +1,150 @@
+{
+  "user_id": "U-03595",
+  "viewer_id": "U-03595",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d3",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:31:24.250Z",
+        "device_time": null,
+        "freshness_s": 80915,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03595"
+      },
+      {
+        "value": "d2",
+        "source": "campaign_link",
+        "observed_at": "2026-09-20T14:48:15.267Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:db41b55c-aab4-4f4c-99c8-abdfd52b7a4e"
+      },
+      {
+        "value": "d3",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T18:13:20.558Z",
+        "device_time": "2026-10-01T18:13:20.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:660bbff8-15ae-41f7-b33a-beff3339136d"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:31:24.250Z",
+        "device_time": null,
+        "freshness_s": 80915,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03595"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-01-22T05:08:30.708Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:31:24.250Z",
+        "device_time": null,
+        "freshness_s": 80915,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03595"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:31:24.250Z",
+        "device_time": null,
+        "freshness_s": 80915,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03595"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T01:31:24.250Z",
+        "device_time": null,
+        "freshness_s": 80915,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03595"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0909",
+        "source": "event_stream",
+        "observed_at": "2026-09-22T14:18:21.728Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:60bc0f86-e0ad-4775-85bf-d0847cdda493"
+      }
+    ],
+    "episode_completed": [
+      {
+        "value": "T0909",
+        "source": "event_stream",
+        "observed_at": "2026-09-22T14:59:44.315Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:ff933f4e-6019-4ad4-953d-76b73e20593f"
+      }
+    ]
+  },
+  "play_count": 7,
+  "complete_count": 7,
+  "last_open_at": "2026-10-01T18:13:20.558Z",
+  "genre_counts": {
+    "Thriller": 3,
+    "Crime": 2,
+    "Comedy": 4,
+    "Romance": 3,
+    "Action": 1,
+    "Drama": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G07",
+    "goal_name": "resume_series_3d",
+    "rule_version": "G07-2026-09-30",
+    "decision_id": "D-2556",
+    "created_at": "2026-10-01T16:52:49.864Z",
+    "deadline": "2026-10-04T16:52:49.863Z",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0909",
+      "title:T0908",
+      "title:T0903",
+      "title:T0902",
+      "title:T0906",
+      "title:T0905",
+      "title:T0904",
+      "title:T0911",
+      "title:T0901"
+    ],
+    "target_slug": "yane-tegi-d3",
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T16:52:49.864Z",
+  "last_home_page_dialect": "d3",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-2556",
+    "D-2746"
+  ],
+  "learnings": [
+    "Goal G07 (G07-2026-09-30) FAILED: window closed at 2026-10-04T16:52:49.863Z without play_started."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 82
+}

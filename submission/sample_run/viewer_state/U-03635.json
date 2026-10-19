@@ -1,0 +1,134 @@
+{
+  "user_id": "U-03635",
+  "viewer_id": "U-03635",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d5",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:57:47.912Z",
+        "device_time": null,
+        "freshness_s": 61332,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03635"
+      },
+      {
+        "value": "d2",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T11:49:32.338Z",
+        "device_time": "2026-10-01T11:49:31.000Z",
+        "freshness_s": 0,
+        "clock_skew_s": 1,
+        "ref_id": "event:26c015d3-0b9d-4eae-a4df-9a4935b8124e"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:57:47.912Z",
+        "device_time": null,
+        "freshness_s": 61332,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03635"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-09-14T15:01:21.878Z",
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:57:47.912Z",
+        "device_time": null,
+        "freshness_s": 61332,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03635"
+      },
+      {
+        "value": "2026-09-14T15:01:24.757Z",
+        "source": "event_stream",
+        "observed_at": "2026-09-14T15:01:24.757Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:b16c936c-0b34-4c78-b7bc-2be1961a4b76"
+      }
+    ],
+    "notifications_opt_in": [
+      {
+        "value": true,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:57:47.912Z",
+        "device_time": null,
+        "freshness_s": 61332,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03635"
+      }
+    ],
+    "whatsapp_opt_in": [
+      {
+        "value": false,
+        "source": "profile_snapshot",
+        "observed_at": "2026-09-29T06:57:47.912Z",
+        "device_time": null,
+        "freshness_s": 61332,
+        "clock_skew_s": 0,
+        "ref_id": "profile:U-03635"
+      }
+    ],
+    "play_started": [
+      {
+        "value": "T0521",
+        "source": "event_stream",
+        "observed_at": "2026-09-26T16:06:21.079Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:39866f82-298e-4328-b611-de19820f6a61"
+      }
+    ]
+  },
+  "play_count": 1,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T11:49:32.338Z",
+  "genre_counts": {
+    "Action": 1,
+    "Romance": 1
+  },
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G02",
+    "goal_name": "first_full_episode_3d",
+    "rule_version": "G02-2026-09-30",
+    "decision_id": "D-1469",
+    "created_at": "2026-10-01T11:49:32.339Z",
+    "deadline": "2026-10-04T11:49:32.338Z",
+    "success_event": "episode_completed",
+    "success_condition": "any episode",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0521",
+      "title:T0779",
+      "title:T0552",
+      "title:T0706",
+      "title:T0800",
+      "title:T0580",
+      "title:T0695",
+      "title:T0586",
+      "title:T0876"
+    ],
+    "target_slug": null,
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T11:49:32.339Z",
+  "last_home_page_dialect": "d2",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1469"
+  ],
+  "learnings": [
+    "Goal G02 (G02-2026-09-30) FAILED: window closed at 2026-10-04T11:49:32.338Z without episode_completed."
+  ],
+  "seen_triggers_count": 1,
+  "seen_events_count": 17
+}

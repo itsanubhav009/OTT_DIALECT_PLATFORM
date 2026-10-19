@@ -1,0 +1,53 @@
+{
+  "user_id": "U-01735",
+  "viewer_id": "U-01735",
+  "arm": "holdout",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T01:45:14.308Z",
+        "device_time": "2026-10-01T01:45:13.547Z",
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:e0c8df16-ae70-478e-ab79-9aea2d5ae835"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-10-01T01:44:59.173Z",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T01:44:59.173Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:f92b86e0-5b89-468f-b5de-2791f3c26ce5"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T01:44:59.173Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:f92b86e0-5b89-468f-b5de-2791f3c26ce5"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T01:45:14.308Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": null,
+  "last_home_page_at": null,
+  "last_home_page_dialect": null,
+  "messages_sent_ist_days": [],
+  "decision_history": [],
+  "learnings": [],
+  "seen_triggers_count": 2,
+  "seen_events_count": 3
+}

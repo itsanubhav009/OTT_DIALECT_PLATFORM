@@ -1,0 +1,81 @@
+{
+  "user_id": "U-03481",
+  "viewer_id": "U-03481",
+  "arm": "agent",
+  "facts": {
+    "dialect": [
+      {
+        "value": "d1",
+        "source": "app_setting",
+        "observed_at": "2026-10-01T13:14:13.629Z",
+        "device_time": "2026-10-01T13:14:11.398Z",
+        "freshness_s": 0,
+        "clock_skew_s": 2,
+        "ref_id": "event:2e1856f8-d11a-4cec-ab01-de5df08f9723"
+      }
+    ],
+    "signup_at": [
+      {
+        "value": "2026-10-01T13:13:55.542Z",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T13:13:55.542Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:41637ecd-7272-4b1b-9dd2-05472189825a"
+      }
+    ],
+    "subscription_status": [
+      {
+        "value": "never",
+        "source": "event_stream",
+        "observed_at": "2026-10-01T13:13:55.542Z",
+        "device_time": null,
+        "freshness_s": 0,
+        "clock_skew_s": 0,
+        "ref_id": "event:41637ecd-7272-4b1b-9dd2-05472189825a"
+      }
+    ]
+  },
+  "play_count": 0,
+  "complete_count": 0,
+  "last_open_at": "2026-10-01T13:14:13.629Z",
+  "genre_counts": {},
+  "opted_out_channels": [],
+  "active_plan": {
+    "goal_id": "G03",
+    "goal_name": "second_day_return_2d",
+    "rule_version": "G03-corrected@2026-10-01T08:30",
+    "decision_id": "D-1667",
+    "created_at": "2026-10-01T13:14:10.377Z",
+    "deadline": "2026-10-03T13:14:10.376Z",
+    "success_event": "play_started",
+    "success_condition": "on a later IST calendar day within the window",
+    "action_taken": "HOME_PAGE",
+    "target_content": [
+      "title:T0426",
+      "title:T0413",
+      "title:T0126",
+      "title:T0419",
+      "title:T0076",
+      "title:T0072",
+      "title:T0060",
+      "title:T0274",
+      "title:T0097"
+    ],
+    "target_slug": null,
+    "status": "FAILED"
+  },
+  "last_home_page_at": "2026-10-01T13:14:10.377Z",
+  "last_home_page_dialect": "d1",
+  "messages_sent_ist_days": [],
+  "decision_history": [
+    "D-1667",
+    "D-1669"
+  ],
+  "learnings": [
+    "Goal G03 (G03-corrected@2026-10-01T08:30) FAILED: window closed at 2026-10-03T13:14:10.376Z without play_started."
+  ],
+  "seen_triggers_count": 2,
+  "seen_events_count": 3
+}
