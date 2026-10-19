@@ -3,3 +3,4 @@ __pycache__/
 submission/data/events.jsonl
 submission/sample_run/sim/outcome_events.jsonl
 submission/sample_run/outcome_events.jsonl
+submission.zip
